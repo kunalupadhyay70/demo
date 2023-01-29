@@ -22,7 +22,8 @@ class gcd{
       return a;
       return recursion_gcd(b, a%b);
          
-    }
+    } 
+    //jvm will start executing the code from here onward
      public static void main(String[] args) {
             
          Scanner sc=new Scanner(System.in);
