@@ -16,6 +16,7 @@ class gcd{
         }
         return b;
     }
+    //jvm start debugging from this side of the code 
     public static int recursion_gcd(int a,int b)
     {  //base case
       if (b==0)//b
