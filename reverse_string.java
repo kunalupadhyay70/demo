@@ -7,7 +7,7 @@ public class reverse_string {
     return "";
     // recursive work 
     String p= reverse(s,index+1); 
-    //self work
+    //self work                                                                                             
     return p+s.charAt(index);
     }
     public static void main(String[] args) {

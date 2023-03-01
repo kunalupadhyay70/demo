@@ -6,7 +6,7 @@ class gcd{
        for(int i=c;i>=0;i-- )//greatest common divisor cant be greater than the minimum ,so the loop executed till  minimum
       { if(a%c==0 && b%c==0)  //if the result of the moduluous of the both is 0 then we get the number and return it  
       {return c;}}
-       return 1;   //other wise return 1 that is gcd   of an two 
+       return 1;   //other wise return 1 that is gcd of any two 
     }
     public static int igcd(int a,int b) {
         while(a%b!=0)

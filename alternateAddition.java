@@ -1,6 +1,6 @@
 // adding the alternate sign with integer n 
 
-public class alternate {
+public class alternateAddition {
    static int seriesSum(int n){
         if(n==0)
          return 0 ;
